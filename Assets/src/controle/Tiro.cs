@@ -14,7 +14,7 @@ public class Tiro : MonoBehaviour {
 		gameObject.transform.Translate(0.2f,0,0);
 		++cont;
 		if (cont >= 100) {
-			Destroy (gameObject);
+			Destroy(gameObject);
 		}
 	}
 }
